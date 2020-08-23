@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>cheind.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>cheind.github.io/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>cheind.github.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
