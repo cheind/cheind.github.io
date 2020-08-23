@@ -246,8 +246,8 @@ ul {
 .header .site-affilation {
   display: flex;
   justify-content: space-between;
-  margin-left: 20%;
-  margin-right: 20%;
+  max-width: 500px;
+  margin: auto;
 }
 
 .header .main-email {
