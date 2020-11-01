@@ -201,7 +201,7 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 25%;
+  max-width: 22%;
   height: auto;
   border-radius: 50%;
   /* float: left; */
@@ -287,7 +287,6 @@ ul {
   margin: 0;
   padding: 0;
   border: none;
-  margin-bottom: 15px;
 }
 
 .header nav ul svg {
