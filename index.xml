@@ -18,7 +18,7 @@
       
       <guid>https://cheind.github.io/pages/notes/</guid>
       <description>Here is a collection of notes I have prepared in the past on various topics of interest.
-Semi-supervised Expectation Maximization This work considers the Expectation Maximization (EM) algorithm in the semi-supervised setting. First, the general form for semi-supervised version of maximum likelihood is derived from the Latent Variable Model (LVM). Since the involved integrals are usually intractable, a surrogate objective function based on the Evidence Lower Bound (ELBO) is introduced. Next, we derive the equations of the semi-supervised EM.</description>
+ Semi-supervised Expectation Maximization This work considers the Expectation Maximization (EM) algorithm in the semi-supervised setting. First, the general form for semi-supervised version of maximum likelihood is derived from the Latent Variable Model (LVM). Since the involved integrals are usually intractable, a surrogate objective function based on the Evidence Lower Bound (ELBO) is introduced.</description>
     </item>
     
   </channel>
