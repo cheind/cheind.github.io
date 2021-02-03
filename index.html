@@ -44,15 +44,7 @@
 			
 		</ul>
 	</nav>
-	<div class="site-affilation"><ul class="flat">
-				<li class="position">Senior Researcher</li>
-				<li class="company">PROFACTOR GmbH, Steyr</li>
-				<li class="company">Visual Computing</li>				
-			</ul><ul class="flat">
-				<li class="position">PhD Candidate</li>
-				<li class="company">Johannes Kepler (JKU), Linz</li>
-				<li class="company">Computational Perception</li>				
-			</ul>
+	<div class="site-affilation">
 
 		
 	</div>
@@ -65,7 +57,7 @@
 </div>
 
 			<div class="introduction"><span>
-		I am a researcher at PROFACTOR / JKU working at the intersection of computer vision and robotics. My research interests include the fusion of deterministic machine learning with probabilistic models through stochastic computational graphs and graph neural networks.
+		I am currently a research scientist at PROFACTOR working at the interface of computer vision and robotics. I received my doctoral degree (with distinction) from JKU in the field of computer vision and machine learning. My focus is on probabilistic approaches to create optimized artificial training data for machine learning.
 	</span>
 	<br><span>
 		Recently, I created a widely used real-time 3D reconstruction software called <a href="https://www.reconstructme.net/">ReconstructMe</a> and initiated several popular <a href="https://github.com/cheind">open source projects</a>. These projects are now used by a variety of research groups worldwide, including Facebook, Google, and Microsoft.
@@ -74,7 +66,7 @@
 		<b>Interests.</b> Machine Learning, Computer Vision, and Robotics.
 	</span>
 </div>
-
+			
 			<div class="introduction">
 	
 </div>
@@ -82,11 +74,88 @@
 			<div class="introduction">
 	</div>
 
+			<div class="introduction">
+	
+    <h3 style="margin-top:1.5cm;">Academic Notes</h3>
+    A collection of notes I have prepared in the past on various topics of interest.
+	<ul>
+		<li>
+			<a href="" class="project"> Semi-supervised Expectation Maximization</a>
+
+			
+			<span class="code_blog">
+				
+				[<a href="notes/Notes_on_Semi_Supervised_Expectation_Maximization.pdf">pdf</a>]
+				
+
+				
+				[<a href="notes/EM.ipynb">ipynb</a>]
+				
+			</span>
+			
+
+			
+			<span class="project_description">
+				This work considers the Expectation Maximization (EM) algorithm in the semi-supervised setting. First, the general form for semi-supervised version of maximum likelihood is derived from the Latent Variable Model (LVM). Since the involved integrals are usually intractable, a surrogate objective function based on the Evidence Lower Bound (ELBO) is introduced. Next, we derive the equations of the semisupervised EM. Finally, the concrete equations for a fitting a Gaussian Mixture Model (GMM) using labeled and unlabeled data are deduced.
+			</span>
+			
+
+		</li>
+		
+		<li>
+			<a href="" class="project"> Variational Autoencoders</a>
+
+			
+			<span class="code_blog">
+				
+				[<a href="notes/Notes_on_Variational_Autoencoders.pdf">pdf</a>]
+				
+
+				
+				[<a href="notes/vae.zip">ipynb</a>]
+				
+			</span>
+			
+
+			
+			<span class="project_description">
+				We seek to perform density estimation between a true (but unknown) probability distribution, and a set of proposal distributions.  Formulated as minimization between distributions, this leads to the maximum (marginal) likelihood principle (see Section 2). To extend the expressiveness of our proposal distributions, we introduce latent variable models (see Section 3).  The hidden variables raise issues in evaluating the marginal likelihood.  We replace the marginal likelihood by a surrogate objective developed by Variational Inference (see Section 4).  Combining these ideas gives us a powerful framework to estimate marginal, inference and joint distributions simultaneously.  The Variational Autoencoder(see Section 5) is a specific application of these framework, that parametrizes the distributions to be optimized by neural networks.
+			</span>
+			
+
+		</li>
+		
+		<li>
+			<a href="" class="project"> Stochastic Optimization of Non-Differentiable Functions</a>
+
+			
+			<span class="code_blog">
+				
+				[<a href="notes/Notes_on_Stochastic_Optimization_for_BlendTorch.pdf">pdf</a>]
+				
+
+				
+				[<a href="https://github.com/cheind/pytorch-blender">blendtorch</a>]
+				
+			</span>
+			
+
+			
+			<span class="project_description">
+				We consider a gradient based parameter optimization of a stochastic computational graph consisting of random scene properties and a deterministic, non-differentiable render function. Our approach leverages ideas from Generative Adverserial Networks (GANs) and gradient estimators from reinforcement learning to jointly optimize all distributional and structural parameters based on generated images. This document should be regarded as an unfinished notebook to emphasize our main idea.
+			</span>
+			
+
+		</li>
+		</ul>
+	
+</div>
+
 		</div>
 		</div>
 		<div class="footer wrapper">
 	<nav class="nav">
-		<div>Christoph Heindl 2020</div>
+		<div>Christoph Heindl 2021</div>
 	</nav>
 </div>
 
