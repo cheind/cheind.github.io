@@ -7,7 +7,7 @@ body {
   font-weight: 300;
   color: #333;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 a,
@@ -75,8 +75,9 @@ blockquote cite {
   font-size: 70%;
   opacity: 0.8;
 }
-span {
+.introduction span {
     display: block;
+    font-size: 16px;
 }
 
 a,
@@ -424,6 +425,10 @@ ul {
   margin-right: 15px;
 }
 
+.feather-16{
+  width: 16px;
+  height: 16px;
+}
 
 
 @media (max-width: 767px) {
